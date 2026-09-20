@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Path of Discipline — Cultivating Inner Power</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --surface: #171a21;
+      --surface-2: #1f2430;
+      --text: #e8e6e1;
+      --muted: #9aa0ab;
+      --accent: #c9a36a;
+      --accent-soft: #e0c493;
+      --line: #2a2f3a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: var(--accent-soft); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      padding: 6rem 1.5rem 5rem;
+      text-align: center;
+      background:
+        radial-gradient(1200px 500px at 50% -10%, rgba(201,163,106,0.12), transparent 70%),
+        var(--bg);
+      border-bottom: 1px solid var(--line);
+    }
+    header .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      font-size: 0.75rem;
+      color: var(--accent);
+      margin-bottom: 1.25rem;
+    }
+    header h1 {
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-weight: 400;
+      line-height: 1.2;
+      max-width: 18ch;
+      margin: 0 auto;
+    }
+    header p {
+      margin: 1.5rem auto 0;
+      max-width: 60ch;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 2.25rem;
+      padding: 0.85rem 1.75rem;
+      border: 1px solid var(--accent);
+      color: var(--accent-soft);
+      border-radius: 2px;
+      letter-spacing: 0.05em;
+    }
+    .cta:hover { background: var(--accent); color: #1a1206; text-decoration: none; }
+
+    main { max-width: 820px; margin: 0 auto; padding: 4rem 1.5rem; }
+    section { margin-bottom: 4rem; }
+    h2 {
+      font-size: 1.9rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      color: var(--accent-soft);
+    }
+    h3 { font-size: 1.2rem; font-weight: 400; margin-bottom: 0.5rem; }
+    p { margin-bottom: 1rem; color: #cfd3da; }
+    .lead { font-size: 1.2rem; color: var(--text); }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card .num {
+      color: var(--accent);
+      font-size: 0.8rem;
+      letter-spacing: 0.2em;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .routine {
+      counter-reset: step;
+      list-style: none;
+    }
+    .routine li {
+      counter-increment: step;
+      position: relative;
+      padding: 1rem 0 1rem 3rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .routine li::before {
+      content: counter(step, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 1rem;
+      color: var(--accent);
+      font-size: 1rem;
+      letter-spacing: 0.1em;
+    }
+
+    blockquote {
+      border-left: 2px solid var(--accent);
+      padding: 0.25rem 0 0.25rem 1.25rem;
+      margin: 2rem 0;
+      font-style: italic;
+      color: var(--text);
+      font-size: 1.15rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .disclaimer {
+      max-width: 60ch;
+      margin: 1rem auto 0;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="eyebrow">A Practice of Discipline &amp; Control</div>
+    <h1>The Path of Inner Power</h1>
+    <p>
+      Spiritual power is not something you receive — it is something you
+      <em>build</em>. Through disciplined practice and mastery over the mind and
+      senses, quiet capacities grow: deep focus, unshakable inner strength, and
+      a calm that holds even under pressure.
+    </p>
+    <a class="cta" href="#principles">Begin the Practice</a>
+  </header>
+
+  <main>
+
+    <section id="principles">
+      <h2>What "Spiritual Power" Really Means</h2>
+      <p class="lead">
+        At its core, spiritual power is <strong>self-mastery</strong> — the ability
+        to direct your attention, energy, and emotions rather than be driven by them.
+        It is cultivated, not conjured, and it grows in proportion to the discipline
+        you bring.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <span class="num">Capacity</span>
+          <h3>Focus</h3>
+          <p>The power to hold attention on a single object or intention without drifting.</p>
+        </div>
+        <div class="card">
+          <span class="num">Capacity</span>
+          <h3>Inner Strength</h3>
+          <p>Resilience that lets you face adversity and remain grounded under pressure.</p>
+        </div>
+        <div class="card">
+          <span class="num">Capacity</span>
+          <h3>Self-Control</h3>
+          <p>The discipline to choose response over reaction, again and again.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pillars">
+      <h2>Two Pillars: Discipline &amp; Control</h2>
+      <p>
+        Every tradition that speaks of inner power rests on the same two foundations.
+        <strong>Discipline</strong> is the consistent daily practice that builds capacity
+        over time. <strong>Control</strong> is the moment-to-moment mastery of mind,
+        breath, and senses that makes that capacity usable.
+      </p>
+
+      <div class="card">
+        <span class="num">Pillar I</span>
+        <h3>Discipline — the daily practice</h3>
+        <p>
+          Power is built by repetition, not by a single dramatic event. A fixed
+          routine — same time, same place, same practice — trains the mind the way
+          training builds the body. Consistency matters far more than intensity.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="num">Pillar II</span>
+        <h3>Control — mastery of mind &amp; senses</h3>
+        <p>
+          Control is the skill of governing your attention and reactions. It begins
+          with the breath, extends to the senses, and culminates in a calm,
+          equanimous mind that is not swayed by distraction or emotion.
+        </p>
+      </div>
+    </section>
+
+    <section id="stages">
+      <h2>Stages of the Practice</h2>
+      <p>
+        The classical path to mastery moves through a sequence of stages. Each one
+        builds on the last; none can be skipped.
+      </p>
+      <ol class="routine">
+        <li>
+          <h3>Restraint (Yama &amp; Niyama)</h3>
+          <p>Establish ethical and daily habits — truthfulness, non-harm, cleanliness, contentment. A stable foundation makes everything else possible.</p>
+        </li>
+        <li>
+          <h3>Breath (Pranayama)</h3>
+          <p>Use deliberate breathing to settle the nervous system and gather energy. Breath is the bridge between body and mind.</p>
+        </li>
+        <li>
+          <h3>Withdrawing the Senses (Pratyahara)</h3>
+          <p>Learn to turn attention inward, reducing the pull of external distraction and filtering what you allow in.</p>
+        </li>
+        <li>
+          <h3>Concentration (Dharana)</h3>
+          <p>Hold a single point, idea, or intention in the mind without it slipping away. This is the raw material of focus.</p>
+        </li>
+        <li>
+          <h3>Meditation (Dhyana)</h3>
+          <p>Let concentration deepen into a continuous, effortless flow of attention. The mind becomes calm and steady.</p>
+        </li>
+        <li>
+          <h3>Equanimity (Samadhi)</h3>
+          <p>The culmination: a balanced, unshakable mind. Inner power becomes a quiet, constant state rather than a forced effort.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="routine">
+      <h2>A Daily Practice</h2>
+      <p>
+        A simple, repeatable structure. Start small and protect consistency above all.
+      </p>
+      <ol class="routine">
+        <li>Wake at a fixed hour; begin before the day's demands take over.</li>
+        <li>Five to ten minutes of slow, deliberate breathing to settle the body.</li>
+        <li>One focused sit of 10–20 minutes — one object of attention, return gently when the mind wanders.</li>
+        <li>One act of deliberate self-control: a small impulse you choose not to follow.</li>
+        <li>End the day with a brief review of where discipline held and where it slipped.</li>
+      </ol>
+
+      <blockquote>
+        "The mind is a muscle: it grows stronger with disciplined use,
+        and weakens with every unguarded distraction."
+      </blockquote>
+    </section>
+
+    <section id="caution">
+      <h2>Keep It Grounded</h2>
+      <p>
+        Real inner power is measured by how well you handle ordinary life — patience
+        under stress, clarity in decision, steadiness in emotion — not by dramatic
+        claims. Approach this as a long, patient practice in self-knowledge. If you
+        are drawn to a specific tradition, seek out an experienced teacher and
+        reputable sources, and treat extraordinary claims with healthy skepticism.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>The Path of Discipline — a study in self-mastery.</p>
+    <p class="disclaimer">
+      This page is for general educational and reflective purposes only and is not
+      medical, psychological, or professional advice. Consult a qualified practitioner
+      for personal health or well-being concerns.
+    </p>
+  </footer>
+
+</body>
+</html>   
